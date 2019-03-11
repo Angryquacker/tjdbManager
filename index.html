@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>tjdbManager</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <button id="createBtn">Create New DB</button>
+                <button id="openBtn">Open DB</button>
+                <button id="tablesBtn">Tables</button>
+                <button id="visualizeBtn">Visualize</button>
+            </nav>
+        </header>
+        <div id="create" class="sec">
+            <form id="createDB">
+                <br />
+                <input type="text" id="dbName" placeholder="DB Name" required minlength="2" /><br /><br />
+                <input type="file" webkitdirectory directory id="path" placeholder="Path" required /><br /><br />
+                <button type="submit">Create</button>
+            </form>
+        </div>
+        <div id="open" class="sec"></div>
+        <div id="tables" class="sec"></div>
+        <div id="visualize" class="sec"></div>
+        <footer>
+            <p id="act">Active DB: "<span id="activeDB">None</span>"</p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "tjdbmanager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "TJ",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^4.0.8"
+  },
+  "dependencies": {
+    "tjdb": "^2.0.1"
+  }
+}

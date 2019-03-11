@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    background-color: #222831;
+    color: white;
+    min-height: 100%;
+    height: 100%;
+}
+
+header button {
+    font-family: serif;
+    font-size: 1.9em;
+    padding: .15em;
+    background-color: #222831;
+    color: white;
+    border: 1px solid white;
+}
+
+header {
+    text-align: center;
+    margin-top: 10px;
+}
+
+form {
+    text-align: center;
+    font-family: serif;
+    color: white;
+    font-size: 1.25em;
+}
+
+form input {
+    font-size: 1.25em;
+    background-color: #222831;
+    color: white;
+    border: 1px solid white;
+    padding: .25em;
+}
+
+form input::placeholder {
+    font-size: 1.25em;
+}
+
+form button {
+    font-family: serif;
+    font-size: 1.25em;
+    background-color: #222831;
+    border: 1px solid white;
+    color: white;
+    padding: .15em;
+}
+
+#path::-webkit-file-upload-button {
+    background-color: #393e46;
+    color: white;
+    border: 1px solid white;
+    padding: .15em;
+    content: "Choose Path"
+}
+
+footer p {
+    color: lightcoral;
+}
+
+footer {
+    bottom: 0;
+    position: absolute;
+}
